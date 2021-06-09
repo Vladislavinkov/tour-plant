@@ -4,9 +4,16 @@
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
   color: #333333;
   background-color: #f5fafe;
+}
+
+.navbar {
+  font-family: 'Mulish', sans-serif;
+}
+
+.breadcrumb {
+  font-family: 'Mulish', sans-serif;
 }
 
 .container {
@@ -16,6 +23,14 @@ body {
 
 img {
   max-width: 100%;
+}
+
+.hotel {
+  font-family: 'Mulish', sans-serif;
+}
+
+.hotel-right {
+  font-family: 'Nunito', sans-serif;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
