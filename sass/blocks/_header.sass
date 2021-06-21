@@ -22,11 +22,16 @@
 		justify-content: space-between
 		color: $light
 		text-transform: uppercase
-	&-menu__link
-		text-decoration: none
-		color: inherit
-		font-size: 14px
-		line-height: 18px	
+		&__link
+			text-decoration: none
+			text-transform: uppercase
+			color: inherit
+			font-size: 14px
+			line-height: 18px
+		&__item
+			&--mobile
+				&_visible
+					display: none			
 .logo
 	width: 177px				
 .search
@@ -68,3 +73,4 @@
 		font-size: 14px
 		line-height: 18px
 		color: $text-color
+		

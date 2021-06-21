@@ -1,4 +1,4 @@
-const hotelslider = new Swiper(".hotel-slider", {
+var hotelslider = new Swiper(".hotel-slider", {
   // Optional parameters
   loop: true,
 
@@ -9,7 +9,7 @@ const hotelslider = new Swiper(".hotel-slider", {
   },
   effect: "coverflow",
 });
-const reviewsSlider = new Swiper(".reviews-slider", {
+var reviewsSlider = new Swiper(".reviews-slider", {
   // Optional parameters
   loop: true,
 
@@ -19,6 +19,9 @@ const reviewsSlider = new Swiper(".reviews-slider", {
     prevEl: ".reviews-slider__button--prev",
   },
 });
-$(".parallax-window").parallax({
-  imageSrc: "img/newsletter-photo.jpg",
+var menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", function () {
+  document
+    .querySelector(".navbar-bottom")
+    .classList.toggle("navbar-bottom_visible");
 });
